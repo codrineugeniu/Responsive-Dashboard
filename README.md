@@ -33,7 +33,17 @@ The grid layout and components are powered by [Bootstrap](http://getbootstrap.co
 
 #### Custom Items
 
-The `css/dashboard/dashboard.min.css` file is the base CSS file for the dashboard, however it also contains the styling for the "widgets".
+The `css/dashboard/dashboard.min.css` file is the base CSS file for the dashboard, however it also contains the styling for the "widgets" and the hamburg menu.
+
+##### Hamburg Menu
+
+To enable the hamburg style menu whilst viewing on smaller devices, apply the `hamburg` class to the body, e.g:
+
+```HTML
+<body class="hamburg">
+```
+
+This will set the menu off-screen freeing up horizontal space, and only show the toggle button to open the menu at the top of the screen. Removing this class causes the layout to default back, with the icon menu down the left side.
 
 ##### Widgets
 
