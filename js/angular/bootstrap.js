@@ -18,8 +18,18 @@ app.directive('loading', function () {
 app.controller('MasterCtrl', function($scope, $cookieStore) {
 
     /**
+     * Hamburg menu toggle
+     */
+
+    $scope.hamburgerd = false;
+
+    $scope.toggleHamburg = function() 
+    {
+        $scope.hamburgerd = ! $scope.hamburgerd;
+    }
+
+    /**
      * Sidebar Toggle & Cookie Control
-     *
      */
     var mobileView = 992;
 
