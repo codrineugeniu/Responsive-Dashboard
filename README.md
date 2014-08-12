@@ -1,17 +1,14 @@
 ## AngularJS + Bootstrap Responsive Dashboard
 
+[![Browser Support](http://img.shields.io/badge/Browser%20Support-Chrome%20Firefox%20IE11%2B-green.svg)]
+[![License](http://img.shields.io/badge/License-MIT-blue.svg)]
+
 This dashboard front-end was created as I was lacking a simple responsive but slick looking dashboard for another project of mine.  Other available dashboards were bloated with external plugins and required a lot of hackery/work out of the box - plus the fact many were powered by jQuery. The design takes inspiration from other dashboards around, but the code to create the layout is my own.
 
-Compatibility/Tested:
-* Chrome, Firefox, IE 11+
-* Works best on screen sizes greater than ~335px
+[Responsive Screenshots](http://ami.responsivedesign.is/?url=http://ehesp.github.io/Responsive-Dashboard)
+[Live Demo](http://ehesp.github.io/Responsive-Dashboard)
 
-[Responsive Screenshots](http://ami.responsivedesign.is/?url=http://ehesp.github.io/Responsive-Dashboard/)
-
-Live Example:
-* http://ehesp.github.io/Responsive-Dashboard/
-
-> jQuery version available on the [jQuery branch](https://github.com/Ehesp/Responsive-Dashboard/tree/jquery)!
+> jQuery version available on the jQuery [branch](https://github.com/Ehesp/Responsive-Dashboard/tree/jquery)
 
 ### Usage
 
